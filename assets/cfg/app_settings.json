@@ -1,0 +1,73 @@
+{
+    "SCHEMA": "http",
+    "APIBASEURL": "172.173.240.32",
+    "APPLICATIONNAME": "PerfEvalApp",
+    "GETRATINGS": "/api/ratings",
+    "GETCATEGORY": "/api/category",
+    "GETPERSPECTIVE": "/api/perspectives",
+    "GETEMPLOYEES": "/api/employee",
+    "GETGOALS": "/api/goals",
+    "GETFINANCIALYEARS": "/api/financialyear",
+    "GETASSESSMENTS": "/api/assessments",
+    "DateFormat": "dd/mm/yyyy",
+    "AppraisalServicePrefix": "/PerfAppraisalService",
+    "LoginServiceAPIBASEURL": "172.173.240.32",
+    "UserAcessServiceAPIBASEURL": "172.173.240.32",
+    "TenantServiceAPIBASEURL": "172.173.240.32",
+    "UserAccessServicePrefix": "/UserAccessServiceMultiTenant",
+    "LoginServicePrefix": "/CommonLoginService",
+    "TenantServicePrefix": "/TenantService",
+    "AUTHTYPE": "DB",
+    "ISMULTITENANT": false,
+    "ALLOWUSERCREATION": false,
+    "TENANTNAME": "synaptris",
+    "TOKENEXPIRY": 120,
+    "SIGNINKEY": "EmM3RltRZGcsW+NKuoeN0WSIJ2o0DkXwFAi6zxQpAHs=",
+    "GETTENANTDETAILS": "/api/tenants/byname/{name}?includeFacilities=true",
+    "LOGIN": "/api/authenticate/user",
+    "GETROLE": "/api/role",
+    "GETMODULE": "/api/moduleobject",
+    "GETUSER": "/api/user",
+    "GETGROUP": "/api/group",
+    "GETUserAccess": "/api/user/UserAccess/{id}",
+    "SHORLIVETOKENEXPIRY": 60,
+    "ACCESSTOKENEXPIRY": 3600,
+    "REFRESHTOKENEXPIRY": 86400,
+    "QUARTERS": [
+        {
+            "quarterid": "AMJ",
+            "quartername": "Apr-May-Jun"
+        },
+        {
+            "quarterid": "JAS",
+            "quartername": "Jul-Aug-Sept"
+        },
+        {
+            "quarterid": "OND",
+            "quartername": "Oct-Nov-Dec"
+        },
+        {
+            "quarterid": "JFM",
+            "quartername": "Jan-Feb-Mar"
+        }
+    ],
+    "MEASUREMENTUNITS": [
+        {
+            "measurementunit": "USD"
+        },
+        {
+            "measurementunit": "Percent(%)"
+        },
+        {
+            "measurementunit": "Count"
+        }
+    ],
+    "ASSESSMENTPERIOD": [
+        {
+            "assessmentperiod": "Quarterly"
+        },
+        {
+            "assessmentperiod": "Annual"
+        }
+    ]
+}
