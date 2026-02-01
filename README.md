@@ -1,2 +1,2 @@
 # Syn.PerformanceEvaluation.UI
-Flutter Application for Employee Performance Evaluation System.
+A Flutter Application for Employee Performance Evaluation System.
